@@ -1,0 +1,147 @@
+.container {
+    width: 980px;
+    padding: 0px;
+    background: #ffffff;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: #000000;
+}
+
+
+#mainPhoto img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#coverPhoto {
+    width: 100%;
+}
+
+.siteAuthor img{
+    width:20%;
+}
+
+/*i {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60px;
+    border: solid red;
+    padding: 10px;
+}*/
+
+.skills {
+    background: red;
+    padding: 30px;
+    display: inline;
+    border-radius: 60px;
+    line-height: 1px;  /** for vertical center - if needed **/
+}
+
+.skill {
+    text-align: center;
+}
+
+.shape {
+    border-radius: 50px;
+    border: 5px solid white;
+    display: inline;
+}
+.border {
+	border: solid black;
+}
+
+ul#menu li {
+    display: inline;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+ul#menu a:link {
+    color: #ffffff;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+ul#socialMenu li {
+    display: inline;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+ul#socialMenu a:link {
+    color: #ffffff;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+#formContainer {
+    padding-top: 10px;
+}
+
+form  { 
+    display: table;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+    border: solid black;     
+}
+
+label { 
+    display: table-row;
+    padding: 2px;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 0px;    
+}
+
+textarea {
+    display: table-row;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#submitButton {
+    padding: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 0px; 
+}
+
+input[type=text] {
+    display: table-row;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #000;
+}
+
+input[type=submit] {
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
