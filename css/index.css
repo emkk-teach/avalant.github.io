@@ -62,6 +62,13 @@ ul#socialMenu a:link {
 .aboutPhoto {
     width: 350px;
 }
+
+.aboutText {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+}
+
 .funPhotos {
     text-align: center;
 }
