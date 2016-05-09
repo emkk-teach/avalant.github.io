@@ -1,65 +1,23 @@
 .container {
     width: 980px;
-    padding: 0px;
-    background: #ffffff;
 }
 
-header {
-    height: 80px;
-    width: 100%;
-    font-size: 14px;
+nav {
+    height: 60px;
+    padding-top: 15px;
     text-transform: uppercase;
-    background: #000000;
+    background: purple;
 }
 
-
-#mainPhoto img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#coverPhoto {
-    width: 100%;
-}
-
-.siteAuthor img{
-    width:20%;
-}
-
-/*i {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 60px;
-    border: solid red;
-    padding: 10px;
-}*/
-
-.skills {
-    background: red;
-    padding: 30px;
-    display: inline;
-    border-radius: 60px;
-    line-height: 1px;  /** for vertical center - if needed **/
-}
-
-.skill {
-    text-align: center;
-}
-
-.shape {
-    border-radius: 50px;
-    border: 5px solid white;
-    display: inline;
-}
-.border {
-	border: solid black;
+#menu {
+    padding: 0 0 0 0;
+    margin: 0 0 0 20px;
+    border: 0 0 0 0;
 }
 
 ul#menu li {
     display: inline;
-    padding: 10px;
+    padding: 5px;
     vertical-align: middle;
 }
 
@@ -69,9 +27,15 @@ ul#menu a:link {
     text-decoration: none;
 }
 
+#socialMenu {
+    padding: 0 0 0 0;
+    margin: 0 20px 0 0;
+    border: 0 0 0 0;
+}
+
 ul#socialMenu li {
     display: inline;
-    padding: 10px;
+    padding: 5px;
     vertical-align: middle;
 }
 
@@ -81,67 +45,72 @@ ul#socialMenu a:link {
     text-decoration: none;
 }
 
-#formContainer {
-    padding-top: 10px;
+.skill img {
+    width: 80px;
+    border: 5px solid purple;
+    border-radius: 30px;
+    padding: 15px;
 }
 
-form  { 
-    display: table;
-    width: 100%;
-    padding: 20px;
-    margin: 0px;
-    border: solid black;     
+.skill {
+    text-align: center;
+    text-transform: uppercase;
 }
 
-label { 
-    display: table-row;
-    padding: 2px;
-    margin: 0px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    border: 0px;    
+.aboutPhoto {
+    width: 350px;
+}
+.funPhotos {
+    text-align: center;
 }
 
-textarea {
-    display: table-row;
-    width: 100%;
+.funPhotos img {
+    border: 5px solid white;
+    border-radius: 5px;
+    -webkit-box-shadow: 7px 6px 22px -5px rgba(0,0,0,0.53);
+    -moz-box-shadow: 7px 6px 22px -5px rgba(0,0,0,0.53);
+    box-shadow: 7px 6px 22px -5px rgba(0,0,0,0.53);
+}
+
+.funPhotos {
     height: 150px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    padding-top: 30px;
 }
 
-#submitButton {
-    padding: 0px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    border: 0px; 
+.funPhotos img {
+    width: 150px;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
 }
 
-input[type=text] {
-    display: table-row;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+.photo1:hover img {
+    width: 160px;
 }
 
-input[type=text]:focus {
-    border: 3px solid #000;
+.photo2:hover img {
+    width: 160px;
 }
 
-input[type=submit] {
-    background-color: #000000;
-    border: none;
-    border-radius: 5px;
-    color: #FFFFFF;
-    padding: 10px;
-    text-decoration: none;
-    margin: 0px;
-    margin-bottom: 5px;
-    margin-top: 10px;
-    width: 100%;
+.photo3:hover img {
+    width: 160px;
 }
+
+.photo4:hover img {
+    width: 160px;
+}
+
+.photo5:hover img {
+    width: 160px;
+}
+
+.photo6:hover img {
+    width: 160px;
+}
+
+.border {
+	border: solid red;
+}
+
