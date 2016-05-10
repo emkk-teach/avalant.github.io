@@ -133,12 +133,30 @@ ul#socialMenu a:link {
 }
 
 .portfolio {
+    display: inline-block;
     text-align: center;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     border: 0 0 0 0;
 }
+
+ul#portfolioItems li {
+    display: inline;
+    list-style: none;
 }
+
+.box1 {
+    background: red;
+}
+
+.box2 {
+    background: blue;
+}
+
+.box3 {
+    background: yellow;
+}
+
 .border {
 	border: 1px solid red;
 }
