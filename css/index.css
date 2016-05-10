@@ -1,6 +1,6 @@
-.container {
+/*.container {
     width: 980px;
-}
+}*/
 
 nav {
     height: 60px;
@@ -70,14 +70,14 @@ ul#socialMenu a:link {
 }
 
 .aboutPhoto {
-    width: 350px;
+    width: 300px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     border: 0 0 0 0;
 }
 
 .aboutText {
-    padding: 0 5px 0 5px;
+    padding: 0 0 0 0;
     margin: 0 0 0 0;
     border: 0 0 0 0;
 }
