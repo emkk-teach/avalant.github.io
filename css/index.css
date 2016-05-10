@@ -47,6 +47,13 @@ ul#socialMenu a:link {
     text-decoration: none;
 }
 
+.mainPhoto {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+}
+
 .skill img {
     width: 80px;
     border: 5px solid purple;
@@ -57,14 +64,20 @@ ul#socialMenu a:link {
 .skill {
     text-align: center;
     text-transform: uppercase;
+    padding: 0 0 0 0;
+    margin: 10px 0 10px 0;
+    border: 50px 0 50px 0;
 }
 
 .aboutPhoto {
     width: 350px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
 }
 
 .aboutText {
-    padding: 0 0 0 0;
+    padding: 0 5px 0 5px;
     margin: 0 0 0 0;
     border: 0 0 0 0;
 }
@@ -119,7 +132,14 @@ ul#socialMenu a:link {
     width: 160px;
 }
 
+.portfolio {
+    text-align: center;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+}
+}
 .border {
-	border: solid red;
+	border: 1px solid red;
 }
 
